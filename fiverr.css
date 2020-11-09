@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEE;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+  background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-icon{
+  color: white;
+}
+
+.navbar-brand img{
+  width: 60px;
+  height: auto;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+ background: #2980b9;
+ color: white;
+ background-color: transparent;
+}
+
+.logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
+.font{
+  font-size: 0.8rem;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.one{
+  float: left;
+  font-size: 35px;
+  color:rgb(88, 65, 65);
+}
+
+.two{
+  float: right;
+  font-size: 13px;
+  margin-top:16px ;
+}
+
+.text::after{
+    display: block;
+    content: '';
+    clear: both;
+  }
+
+ .button::after{
+    display: block;
+    content: '';
+    clear: both;
+  }
+
+.tab-font{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.oneplus{
+  float: left;
+}
+
+.twoplus{
+  float: right;
+}

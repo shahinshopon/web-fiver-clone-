@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="fiverr.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+     <!-- bootstrap 4 cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+   
+  </head>
+ <body>
+  <!-- <header>
+
+
+       <!-- nav starts here -->
+         <nav class="navbar navbar-expand-md m-0 p-0 ">
+           <div class="row collapse navbar-collapse">
+             <div class="col-lg-8 ">
+                <ul class="navbar-nav justify-content-start ">
+                  <li class="nav-item m-auto"><a class="nav-link logo"  href="#">fiverr</a></li>
+                  <li class="nav-item m-auto"><a class="nav-link font"  href="#">Dashboard</a> </li>
+                  <li class="nav-item m-auto"><a class="nav-link font"  href="#">Messages</a> </li>
+                  <li class="nav-item m-auto"><a class="nav-link font" href="#">Orders</a> </li>
+                  <li class="nav-item m-auto"><a class="nav-link font" href="#">Gig</a> </li>
+                  <li class="nav-item m-auto"><a class="nav-link font" href="#">Analytics</a> </li>
+                  <li class="nav-item m-auto"><a class="nav-link font" href="#">Earnings</a> </li>
+                  <li class="nav-item m-auto"><a class="nav-link font" href="#">Community</a> </li>
+                  <li class="nav-item m-auto"><a class="nav-link font" href="#">More</a> </li>
+                </ul> 
+             </div>
+
+           <div class="col-lg-1"></div>
+            
+            <div class="col-lg-3">
+              <ul class="navbar-nav justify-content-end ml-auto">
+                <li class="nav-item mt-auto mb-auto"><a class="nav-link font" href="#">Switch to buying</a></li>
+                <li class="nav-item mt-auto mb-auto"><a class="nav-link navbar-brand" href="#">
+                  <img class="rounded-circle" src="duck.jpg" style="width: 30px;height: 30px;" alt="logo">
+                </a></li>
+              </ul>
+            </div>
+           </div>
+         </nav>
+
+         <!-- nav ends here -->
+        
+          <div class="text mt-3 mb-2 ml-3 mr-3 pl-2">
+          <p class="one">Gigs</p>
+            
+            <div class="custom-control custom-switch twoplus">
+              <div> 
+                <p class="mt-2 mr-2 p-2">Accepting Custom Orders &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                 <label class="custom-control-label" for="customSwitch1"></label>
+                </p>
+              </div>
+              
+            </div>
+            
+          </div>
+          <!-- tab starts here -->
+            <div class="container-fluid mt-0 pt-0 tab-after">
+              <!-- Nav pills -->
+            <div class="oneplus">
+              <ul class="nav nav-pills" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active tab-font ml-3" data-toggle="pill" href="#home">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled tab-font" data-toggle="pill" href="#menu1">Pending Approval</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled tab-font" data-toggle="pill" href="#menu2">Requires Modification</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled tab-font ml-3" data-toggle="pill" href="#home">Draft</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled tab-font" data-toggle="pill" href="#menu1">Denied</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled tab-font" data-toggle="pill" href="#menu2">Paused</a>
+                </li>
+               
+              </ul>
+            </div>
+            <div class="twoplus"> <button style="border: 1px solid white;border-radius: 5px;" class="bg-success text-light" >Create a new gig</button></div>
+           
+            
+          <br>
+            <!-- Tab panes -->
+            <div class="tab-content mt-2">
+               <!-- card option starts here -->
+              <div class="card bg-red  m-4">
+                <div class="container-fluid ">
+                 <table class="table  table-hover text-center mt-2 pl-0 ">
+                   <thead>
+                     <tr class="text-start">
+                       <th><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></th>
+                       <th>Gig</th>
+                       <th>Impression</th>
+                       <th>Clicks</th>
+                       <th>Order</th>
+                       <th>Cancellation</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                    <tr>
+                      <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></td>
+                      <td>make an app using flutter & firebase</td>
+                      <td>104</td>
+                      <td>4</td>
+                      <td>0</td>
+                      <td>0%</td>
+                      <td>
+                       <div class="dropdown">
+                         <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </button>
+                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                           <a class="dropdown-item" href="#">Action</a>
+                           <a class="dropdown-item" href="#">Another action</a>
+                           <a class="dropdown-item" href="#">Something else here</a>
+                         </div>
+                       </div>
+                      </td>
+                    </tr>
+                     <tr>
+                       <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></td>
+                       <td>make an app using flutter & firebase</td>
+                      <td>05</td>
+                      <td>1</td>
+                      <td>0</td>
+                      <td>0%</td>
+                      <td>
+                       <div class="dropdown">
+                         <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </button>
+                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                           <a class="dropdown-item" href="#">Action</a>
+                           <a class="dropdown-item" href="#">Another action</a>
+                           <a class="dropdown-item" href="#">Something else here</a>
+                         </div>
+                       </div>
+                      </td>
+                     </tr>
+                     <tr>
+                       <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></td>
+                       <td>make an app using flutter & firebase</td>
+                       <td>124</td>
+                       <td>1</td>
+                       <td>0</td>
+                       <td>0%</td>
+                       <td>
+                         <div class="dropdown">
+                           <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </button>
+                           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                             <a class="dropdown-item" href="#">Action</a>
+                             <a class="dropdown-item" href="#">Another action</a>
+                             <a class="dropdown-item" href="#">Something else here</a>
+                           </div>
+                         </div>
+                        </td>
+                    </tr>
+                   
+                   </tbody>
+                 </table>
+                </div>
+           </div>
+ 
+              <!-- card option ends here -->
+            </div>
+            </div>
+          
+          <!-- tabs end here -->
+
+          <div style="float: right;" class="mr-4 text-success"><p>What does your Gig® status mean?</p></div>
+            <br>  
+     </div>
+    
+     
+  <!-- bootstrap,jquery,javascript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+ </body>
+</html>
